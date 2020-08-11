@@ -1,0 +1,44 @@
+.playerBar {
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	bottom: 0;
+	height: 74px;
+	width: 100%;
+}
+
+.playerBar__icon {
+	margin-right: 15px;
+	margin-left: 15px;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.playerBar__playButton {
+	background-color: #fff;
+	border-radius: 99px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 0px 3px 6px 0px rgba(140, 152, 164, 0.25);
+
+	&:hover {
+		transition: transform 0.2s ease-in-out;
+		transform: scale(1.15);
+	}
+}
+
+.progress {
+	display: flex;
+	height: 10px !important;
+	overflow: hidden;
+	line-height: 0;
+	font-size: 0.75rem;
+	background-color: #e9ecef;
+	border-radius: 0.25rem;
+}
+
+.playerBar__albumLogo {
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	margin-left: 20px;
+}

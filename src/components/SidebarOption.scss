@@ -1,0 +1,31 @@
+.sidebarOption {
+	cursor: pointer;
+	margin-bottom: 42px;
+	white-space: nowrap;
+	transition: 0.3s ease;
+	text-decoration: none;
+	&:hover {
+		color: #31da6e;
+		text-decoration: none;
+	}
+}
+
+.textLink {
+	color: #000 !important;
+	transition: 0.3s ease;
+	&:hover {
+		color: #31da6e !important;
+		text-decoration: none;
+	}
+}
+
+.playlist {
+	margin-bottom: -42px !important;
+	text-decoration: none;
+	transition: 0.3s ease;
+	color: #000;
+	&:hover {
+		color: #31da6e;
+		text-decoration: none;
+	}
+}
